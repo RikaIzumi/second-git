@@ -13,6 +13,7 @@
                             <th>タスク内容</th>
                             <td><c:out value="${task.content}" /></td>
                         </tr>
+                        <tr>
                             <th>作成日時</th>
                             <td><fmt:formatDate value="${task.created_at}" pattern="yyyy-MM-dd HH:mm:ss" /></td>
                         </tr>
